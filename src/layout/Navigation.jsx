@@ -3,7 +3,7 @@ import mobileLogo from "../assets/images/mobile-logo.svg"
 import { useEffect, useState } from 'react'
 import { Link,useLocation } from 'react-router-dom'
 import { Container, Nav,Navbar } from 'react-bootstrap'
-import PrimaryButton from "../components/PrimaryButton"
+import PrimaryButton from "../components/Buttons/PrimaryButton"
 
 function Navigation() {
   const [navbarScroll, setNavbar] = useState(false)

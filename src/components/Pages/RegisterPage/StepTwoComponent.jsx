@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Row, Col, Form, Button } from 'react-bootstrap'
-import SelectMultiConponent from './SelectMultiConponent';
+import SelectMultiConponent from '../../InputComponents/SelectMultiConponent';
 import { useFormik } from "formik"
 import axios from 'axios';
 

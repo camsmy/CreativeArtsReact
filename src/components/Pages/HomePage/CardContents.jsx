@@ -3,6 +3,7 @@ import { useEffect, useRef, useState } from 'react'
 import axios from 'axios'
 import CardItems from "../../Cards/CardItems"
 import PrimaryButton from "../../Buttons/PrimaryButton"
+import { Link } from 'react-router-dom'
 
 function CardContents() {
   const isMountedRef = useRef(false);
@@ -68,7 +69,9 @@ function CardContents() {
 
             <Row className="d-flex justify-content-center align-items-center mt-5">
               <Col lg={9}>
-                <PrimaryButton name="Click to change city to abu dhabi" />
+                <Link to="/change">
+                  <PrimaryButton name="Click to change city to abu dhabi" />
+                </Link>
               </Col>
             </Row>
           </Card.Body>

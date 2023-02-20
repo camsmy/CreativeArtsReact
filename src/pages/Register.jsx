@@ -29,7 +29,6 @@ const Register = () => {
     return (
         <>
             <header className='d-flex align-items-center position-relative pb-5 '>
-                {/* <div className="clipped--register py-5 home-bg"> */}
                 <div className={changeBG ? "header--register__background py-5" : "clipped--register pb-5"}>
                     <div className="overlay--register"></div>
                     <Container className="py-5">
