@@ -1,6 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap'
 import PrimaryButton from "../components/Buttons/PrimaryButton"
-import CardContents from "../components/Cards/CardContents"
+import CardContents from "../components/Pages/HomePage/CardContents"
 import { Link } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 

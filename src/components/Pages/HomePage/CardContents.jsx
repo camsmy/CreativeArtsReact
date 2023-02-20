@@ -1,8 +1,8 @@
 import { Container, Row, Col, Card } from 'react-bootstrap'
 import { useEffect, useRef, useState } from 'react'
 import axios from 'axios'
-import CardItems from "../Cards/CardItems"
-import PrimaryButton from "../Buttons/PrimaryButton"
+import CardItems from "../../Cards/CardItems"
+import PrimaryButton from "../../Buttons/PrimaryButton"
 
 function CardContents() {
   const isMountedRef = useRef(false);

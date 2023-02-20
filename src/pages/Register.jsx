@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
-import { Container, Row, Col, Tab, Tabs } from 'react-bootstrap'
-import RegisteredComponent from '../components/RegisteredComponent';
-import StepOneComponent from '../components/StepOneComponent';
-import StepTwoComponent from '../components/StepTwoComponent';
+import { Container, Row, Tab, Tabs } from 'react-bootstrap'
+import RegisteredComponent from '../components/Pages/RegisterPage/RegisteredComponent';
+import StepOneComponent from '../components/Pages/RegisterPage/StepOneComponent';
+import StepTwoComponent from '../components/Pages/RegisterPage/StepTwoComponent';
 
 const Register = () => {
     const [key, setKey] = useState('step1');

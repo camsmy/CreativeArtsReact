@@ -1,6 +1,6 @@
 import { Row, Col, Form, Button } from 'react-bootstrap'
-import SelectComponent from '../InputComponents/SelectComponent';
-import TextComponent from '../InputComponents/TextComponent';
+import SelectComponent from '../../InputComponents/SelectComponent';
+import TextComponent from '../../InputComponents/TextComponent';
 import { useFormik } from "formik"
 import * as yup from 'yup'
 import axios from 'axios';
