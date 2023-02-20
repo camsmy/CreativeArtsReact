@@ -1,18 +1,18 @@
 import { Container, Row, Col } from 'react-bootstrap'
-import PrimaryButton from "../components/PrimaryButton"
-import CardContents from "../components/CardContents"
+import PrimaryButton from "../components/Buttons/PrimaryButton"
+import CardContents from "../components/Cards/CardContents"
 import { Link } from 'react-router-dom'
-import { useState,useEffect } from 'react'
+import { useState, useEffect } from 'react'
 
 const Home = () => {
   const [changeBG, setChangeBg] = useState(true)
 
   const changeBackground = () => {
-    if(window.innerWidth <= 992){
+    if (window.innerWidth <= 992) {
       setChangeBg(false)
-  }else{
-    setChangeBg(true)
-  }
+    } else {
+      setChangeBg(true)
+    }
   }
 
   useEffect(() => {
@@ -21,7 +21,7 @@ const Home = () => {
   })
   return (
     <>
-    <header className='d-flex align-items-center position-relative pb-5'>
+      <header className='d-flex align-items-center position-relative pb-5'>
         <div className={changeBG ? "header--home__background pb-5 home-bg" : "clipped--home pb-5 home-bg"}>
           <div className="overlay"></div>
           <Container className="pb-5">
