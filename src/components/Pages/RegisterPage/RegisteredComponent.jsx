@@ -113,8 +113,8 @@ function RegisteredComponent() {
                         <Col
                             className='confirmation--fineprint py-3 text-white'>
                             <p className='text-uppercase m-0'>
-                                An electronic copy of your ticket has been sent to your email
-                                {contentDetails.email}. Please arrive 1 hour before the event.
+                                An electronic copy of your ticket has been sent to your email (
+                                {contentDetails.email}). Please arrive 1 hour before the event.
                             </p>
                         </Col>
                     </Col>
